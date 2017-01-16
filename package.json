@@ -1,0 +1,21 @@
+{
+  "name": "rs-blog-scale-async",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.4.0"
+  },
+  "description": "Article examples to handle async for the Node.js at Scale series",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --harmony-async-await index.js",
+    "dev:watch": "nodemon --harmony-async-await index.js"
+  },
+  "author": "RisingStack Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.1.4",
+    "co": "4.6.0",
+    "es6-promisify": "5.0.0",
+    "express": "4.14.0"
+  }
+}
